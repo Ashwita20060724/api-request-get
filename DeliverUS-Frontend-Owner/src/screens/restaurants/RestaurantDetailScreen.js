@@ -38,7 +38,8 @@ export default function RestaurantDetailScreen({ navigation, route }) {
     }
 
     fetchRestaurantDetail()
-  }, [route.params.id])
+  }, [])
+
   const renderHeader = () => {
     return (
       <View>
